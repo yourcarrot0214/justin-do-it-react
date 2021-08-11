@@ -31,7 +31,8 @@ const result = formula(x);
 const multiply = (a, b) => a * b;
 const add = (a, b) => a + b;
 
-const multiplyX = x => a => multiply(a, 2);
+// const multiplyX = x => a => multiply(a, 2);
+const multiplyX = x => a => multiply(a, x);
 const addX = x => a => add(x, a);
 const addFour = addX(4);
 const multiplyTwo = multiplyX(2);
